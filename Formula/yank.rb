@@ -9,6 +9,14 @@ class Yank < Formula
 
   depends_on "python@3.12"
   depends_on "rust" => :build # needed to build cryptography
+  depends_on "cmake" => :build # needed for pillow meson build
+  depends_on "ninja" => :build # meson backend for pillow
+  depends_on "pkgconf" => :build # finds system libraries for pillow
+  depends_on "jpeg-turbo" # JPEG support for pillow
+  depends_on "freetype" # font/text rendering for pillow
+  depends_on "libtiff" # TIFF support for pillow
+  depends_on "little-cms2" # color management for pillow
+  depends_on "webp" # WebP format support for pillow
 
   resource "cffi" do
     url "https://files.pythonhosted.org/packages/eb/56/b1ba7935a17738ae8453301356628e8147c79dbb825bcbc73dc7401f9846/cffi-2.0.0.tar.gz"
