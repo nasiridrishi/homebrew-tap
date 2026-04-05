@@ -3,8 +3,8 @@ class Yank < Formula
 
   desc "Cross-platform LAN clipboard synchronization tool"
   homepage "https://github.com/nasiridrishi/yank"
-  url "https://github.com/nasiridrishi/yank/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "38449d75e214125d650eb60c300869dd0ae5e0349dc95b07d2ae378b663326ef"
+  url "https://github.com/nasiridrishi/yank/archive/refs/tags/v1.0.3.tar.gz"
+  sha256 "3f8da1552e213d5af40d5649cf949191409dcdc4ff6bd9a574c30241b3c60467"
   license "MIT"
 
   depends_on "python@3.12"
